@@ -1,18 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Login - Resto Suttan</title>
-</head>
-<body>
+<?php include('includes/header.php'); ?>
+<main class="form-container">
     <h2>Login</h2>
-    <form action="" method="POST">
-        <label>Username:</label><br>
-        <input type="text" name="username" required><br><br>
-        <label>Password:</label><br>
-        <input type="password" name="password" required><br><br>
-        <button type="submit" name="login">Login</button>
+    <form action="#" method="POST">
+        <label>Email:</label>
+        <input type="email" name="email" required>
+        <label>Password:</label>
+        <input type="password" name="password" required>
+        <button type="submit" class="btn">Masuk</button>
+        <p>Belum punya akun? <a href="register.php">Daftar disini</a></p>
     </form>
-
-    <p>Belum punya akun? <a href="register.php">Daftar disini</a></p>
-</body>
-</html>
+</main>
+<?php include('includes/footer.php'); ?>
