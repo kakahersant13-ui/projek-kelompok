@@ -1,33 +1,22 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Menu Makanan - Resto Suttan</title>
-    <link rel="stylesheet" href="../assets/css/style.css">
-</head>
-<body>
-    <h2>🍽 Menu Makanan Resto Suttan</h2>
-
-    <div class="menu-container">
+<?php include('../includes/header.php'); ?>
+<main>
+    <h2>Menu Kami</h2>
+    <div class="menu-list">
         <div class="menu-item">
-            <img src="../assets/img/nasi-goreng.jpg" alt="Nasi Goreng">
-            <h3>Nasi Goreng</h3>
-            <p>Rp 25.000</p>
-            <button>Tambah ke Keranjang</button>
+            <img src="../assets/img/logo.png" alt="Nasi Goreng">
+            <h3>Nasi Goreng Spesial</h3>
+            <p>Rp25.000</p>
         </div>
-
         <div class="menu-item">
-            <img src="../assets/img/mie-goreng.jpg" alt="Mie Goreng">
-            <h3>Mie Goreng</h3>
-            <p>Rp 22.000</p>
-            <button>Tambah ke Keranjang</button>
+            <img src="../assets/img/logo.png" alt="Sate Ayam">
+            <h3>Sate Ayam</h3>
+            <p>Rp20.000</p>
         </div>
-
         <div class="menu-item">
-            <img src="../assets/img/ayam-bakar.jpg" alt="Ayam Bakar">
-            <h3>Ayam Bakar</h3>
-            <p>Rp 30.000</p>
-            <button>Tambah ke Keranjang</button>
+            <img src="../assets/img/logo.png" alt="Es Teh Manis">
+            <h3>Es Teh Manis</h3>
+            <p>Rp5.000</p>
         </div>
     </div>
-</body>
-</html>
+</main>
+<?php include('../includes/footer.php'); ?>
