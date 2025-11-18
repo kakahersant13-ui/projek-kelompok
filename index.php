@@ -7,4 +7,3 @@
         <a href="pages/menu.php" class="btn">Lihat Menu</a>
     </section>
 </main>
-<?php include('includes/footer.php');
