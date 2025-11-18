@@ -3,6 +3,7 @@
     <section class="hero">
         <h1>Selamat Datang di Suttan Resto 🍽 - rinasti</h1>
         <p>Makanan Indonesia dengan cita rasa khas dan suasana kekinian.</p>
+        <p>Penambahan baru (Skema 2) oleh Rinasti.</p>
         <a href="pages/menu.php" class="btn">Lihat Menu</a>
     </section>
 </main>
